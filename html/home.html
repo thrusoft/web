@@ -22,60 +22,82 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" style="background-color: white;">
-                
+
                 <div class="item active">
-                    <div style="display: inline-flex;">
+                    <div class="mobile">
+                        <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/THRUSOFT_Website_draft/Slide2.png"
+                                alt="Los Angeles" style="width:100%;">
+                    </div>
+                    <div class="web">
                         <div style="float: left;width: 35%;">
-                            <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/home_slide_pic_1.png" alt="Los Angeles" style="width:100%;">
+                            <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/home_slide_pic_1.png"
+                                alt="Los Angeles" style="width:100%;">
                         </div>
                         <div style="float: right;margin: auto;height:24vh; width: 65%;text-align: center;">
                             <div>
                                 <p style="color:#00887A;font-size: 40;margin-top: -6rem;">Customer is GOD! </p>
                             </div>
                             <div>
-                                <p style="color:black;font-size: 28;padding-top: 4rem;">All the businesses say exactly SAME</p>
+                                <p style="color:black;font-size: 28;padding-top: 4rem;">All the businesses say exactly
+                                    SAME</p>
                             </div>
                             <div>
                                 <p style="color:black;font-size: 28;padding-top: 2rem;">BUT</p>
                             </div>
-                           <div>
-                                <p style="color:red;font-size: 40;padding-top: 4rem;">Are they being treated so post sale?</p>
-                           </div>
+                            <div>
+                                <p style="color:red;font-size: 40;padding-top: 4rem;">Are they being treated so post
+                                    sale?</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="item">
-                    <div style="display: inline-flex;">
+                    <div class="mobile">
+                        <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/THRUSOFT_Website_draft/Slide3.png"
+                                alt="Los Angeles" style="width:100%;">
+                    </div>
+                    <div class="web">
                         <div style="float: left;width: 35%;">
-                            <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/home_slide_pic_2.png" alt="Los Angeles" style="width:100%;">
+                            <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/home_slide_pic_2.png"
+                                alt="Los Angeles" style="width:100%;">
                         </div>
                         <div style="float: right;margin: auto;height:24vh; width: 65%;text-align: center;">
                             <div>
                                 <p style="color:#00887A;font-size: 40;margin-top: -6rem;">Think about</p>
                             </div>
                             <div>
-                                <p style="color:black;font-size: 28;padding-top: 4rem;">Customer having his/her own system</p>
+                                <p style="color:black;font-size: 28;padding-top: 4rem;">Customer having his/her own
+                                    system</p>
                             </div>
                             <div>
-                                <p style="color:red;font-size: 40;padding-top: 4rem;">So that all the businesses can connect to serve customer,..</p> 
+                                <p style="color:red;font-size: 40;padding-top: 4rem;">So that all the businesses can
+                                    connect to serve customer,..</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <div style="display: inline-flex;">
+                    <div class="mobile">
+                        <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/THRUSOFT_Website_draft/Slide4.png"
+                                alt="Los Angeles" style="width:100%;">
+                    </div>
+                    <div class="web">
                         <div style="float: left;width: 35%;">
-                            <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/home_slide_pic_3.png" alt="Los Angeles" style="width:100%;">
+                            <img src="https://raw.githubusercontent.com/thrusoft/web/main/images/home_slide_pic_3.png"
+                                alt="Los Angeles" style="width:100%;">
                         </div>
                         <div style="float: right;margin: auto;height:24vh; width: 65%;text-align: center;">
                             <div>
                                 <p style="color:#00887A;font-size: 40;margin-top: -6rem;">THRUSOFT is</p>
                             </div>
                             <div>
-                                <p style="color:black;font-size: 28;padding-top: 4rem;">building the systems to fill this gap</p>
+                                <p style="color:black;font-size: 28;padding-top: 4rem;">building the systems to fill
+                                    this gap</p>
                             </div>
                             <div>
-                                <p style="color:red;font-size: 40;padding-top: 4rem;">More details will follow soon,..</p>  
+                                <p style="color:red;font-size: 40;padding-top: 4rem;">More details will follow soon,..
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -93,16 +115,34 @@
             </a>
         </div>
     </div>
-
 </body>
 <style>
-    
+    body {
+        background-color: #00887A;
+    }
     .carousel-control.left {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .0001) 100%);
     }
 
     .carousel-control.right {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .0001) 100%);
+    }
+
+    .web {
+        display: inline-flex;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    @media only screen and (max-width: 900px) {
+        .web {
+            display: none;
+        }
+        .mobile {
+            display: block;
+        }
     }
 </style>
 
