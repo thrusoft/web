@@ -12,7 +12,7 @@
 <body>
     <div class="flex-container">
         <div class="textcontainer">
-            <h4 style="margin-top: 5rem;"><b>Let’s Get In Touch!</b></h4>
+            <h4><b>Let’s Get In Touch!</b></h4>
             <h5>Address :</h5>
             <p>FLAT 1609,</p>
             <p>TOWER 2</p>
@@ -25,9 +25,23 @@
             <h5>EMAIL</h5>
             <p class='email'>director@thrusoft.com</p>
         </div>
+        <div class="textcontainer" style="display: none;">
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+            <p style="color: #00887A; background-color: #00887A;">|</p>
+        </div>
     </div>
 </body>
 <style>
+    .body {
+        background-color: #00887A;
+    }
     .flex-container {
         display: flex;
         flex-wrap: wrap;
@@ -38,7 +52,7 @@
 
     .flex-container>div {
         margin: 0rem 0 0rem 0;
-        background-color: #77A6F7;
+        background-color: #00887A;
         width: 100%;
         text-align: left;
         line-height: 30px;
@@ -68,13 +82,16 @@
     .textcontainer {
         text-align: left;
         padding: 2px 16px;
-        padding-bottom: 2rem;
+        padding-bottom: 5rem;
     }
     .email {
         font-size: 1.5rem;
     }
     img {
         border-radius: 5px 5px 0 0;
+    }
+    h4 {
+        margin-top: 5rem;
     }
     h5 {
         margin-top: 2rem;
@@ -103,6 +120,27 @@
     input[type=submit] {
         background-color: #77A6F7;
         margin-top: 3rem;
+    }
+    @media only screen and (max-width: 600px) {
+        h4 {
+            margin-top: 0rem;
+        }
+        h5 {
+            margin-top: 0.0rem;
+        }
+        p {
+            padding-left: 1rem;
+            padding-top: 0.0rem;
+            font-size: 1.0rem;
+            line-height: 0.5rem;
+        }
+        .flex-container>div {
+            line-height: 0.5rem;
+            font-size: 1.0rem;
+        }
+        .textcontainer {
+            padding-bottom: 1rem;
+        }
     }
 </style>
 

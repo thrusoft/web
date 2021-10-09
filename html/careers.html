@@ -12,21 +12,28 @@
 <body>
     <div class="flex-container">
         <div class="textcontainer">
-            <p>We are looking for passionate people who want to put their signature in tomorrow’s customer App code (both Mobile and Web).</p>
-            <p>Great opportunity to learn on Live Project and showcase your full potential (preferred 0-2 Yrs exp)</p>
-            <p>You come with knowledge of Webservices, MySQL development and become a full stack developer in no time working on latest digital technologies.</p>
-            <h5>Job Summary</h5>
-            <p>Job Type : Apprenticeship</p>
-            <p>Job Role : IT Software-Engineer</p>
-            <p>Job Category : IT/Software,BSc/BCA/BBM,Work from Home</p>
-            <p>Hiring Process : Face to Face Interview, Telephonic Interview</p>
-            <p>Who can apply : Freshers and Experienced (0 to 1 yrs )</p>
-            <p></p>
-            <a href="https://www.freshersworld.com/jobs/software-engineer-jobs-in-hyderabad-thrusoft-solution-pvt-ltd-1173910">APPLY HERE</a>
+            <div style="display: block;">
+                <p>We are looking for passionate people who want to put their signature in tomorrow’s customer App code (both Mobile and Web).</p>
+                <p>Great opportunity to learn on Live Project and showcase your full potential (preferred 0-2 Yrs exp)</p>
+                <p>You come with knowledge of Webservices, MySQL development and become a full stack developer in no time working on latest digital technologies.</p>
+            </div>
+            <div style="display: block;">
+                <h5>Job Summary</h5>
+                <p>Job Type : Apprenticeship</p>
+                <p>Job Role : IT Software-Engineer</p>
+                <p>Job Category : IT/Software,BSc/BCA/BBM,Work from Home</p>
+                <p>Hiring Process : Face to Face Interview, Telephonic Interview</p>
+                <p>Who can apply : Freshers and Experienced (0 to 1 yrs )</p>
+                <p></p>
+                <a href="https://www.freshersworld.com/jobs/software-engineer-jobs-in-hyderabad-thrusoft-solution-pvt-ltd-1173910">APPLY HERE</a>
+            </div>
         </div>
     </div>
 </body>
 <style>
+    body {
+        background-color: #00887A;
+    }
     .flex-container {
         display: flex;
         flex-wrap: wrap;
@@ -82,12 +89,13 @@
         padding-left: 2rem;
         padding-top: 1rem;
         font-size: 1.4rem;
-        line-height: 1rem;
+        line-height: 2.5rem;
     }
     a {
         padding-left: 2rem;
         color: #FFCCBC;
         font-size: 2rem;
+        padding-bottom: 10rem;
     }
     input {
         width: 100%;
@@ -106,6 +114,27 @@
     input[type=submit] {
         background-color: #77A6F7;
         margin-top: 3rem;
+    }
+    @media only screen and (max-width: 600px) {
+        h4 {
+            margin-top: 0rem;
+        }
+        h5 {
+            margin-top: 0.0rem;
+        }
+        p {
+            padding-left: 1rem;
+            padding-top: 0.0rem;
+            font-size: 1.0rem;
+            line-height: 1.5rem;
+        }
+        .flex-container>div {
+            line-height: 1rem;
+            font-size: 1.0rem;
+        }
+        .textcontainer {
+            padding-bottom: 1rem;
+        }
     }
 </style>
 
